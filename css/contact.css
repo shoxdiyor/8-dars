@@ -1,0 +1,58 @@
+@import url(../css/style.css);
+
+body {
+  margin: auto;
+  padding: auto;
+}
+
+.section1-h1 {
+  margin-top: -700;
+  font-size: 64px;
+}
+
+.talent {
+  font-size: 32px;
+}
+
+.button {
+  margin-top: auto;
+}
+
+form {
+  background-color: #014e56;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.submit {
+}
+
+form input,
+form textarea,
+form button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+form input,
+form textarea {
+  background-color: #01433f;
+  color: white;
+}
+
+form button {
+  background-color: white;
+  color: #014e56;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #ccc;
+}
